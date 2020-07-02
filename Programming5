@@ -1,0 +1,34 @@
+1#DSC 510
+#Week 5 Programming Assignment 5.1
+#Programming Assignment Week 5
+#Author Erez Sarousi
+#6/29/2020
+
+def performCalculation(operation):
+   pass
+def calculateAverage():
+   pass
+def main():
+  pass
+if __name__ == "__main__":
+   main()
+
+Operation = input('''Would you like to add, subtract, multiply, divide or calculate the average?
+Enter 1 to add.
+Enter 2 to subtract.
+Enter 3 to multiply.
+Enter 4 to divide.
+Enter 5 to calculate the average. ''')
+if Operation == "1":
+  One = input ("What is the first number? ")
+  Two = input ("What is the second number? ")
+  One = float(One)
+  Two = float(Two)
+  print (sum(One,Two)) 
+if Operation == "2":
+  One = input ("What is the first number? ")
+  Two = input ("What is the second number? ")
+  One = float(One)
+  Two = float(Two)
+  print (One + " minus " + Two + " equals: " )
+  print (One - Two)
